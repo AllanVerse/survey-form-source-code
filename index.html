@@ -1,0 +1,37 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-18">
+   <title> freeCodeCamp Survey Form</title>
+<link rel="stylesheet"  href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">freeCodeCamp Survey Form<h1>
+      <p id="description">Thank you for taking the time for helping us to improve<p>
+        <form id="survey-form" method="post" action=" https://survey-form.freecodecamp.rocks">
+        <fieldset>
+          <label for="name" id="name-label">Name<input placeholder="name" type="text" id="name" required /></label>
+          <label for="email" id="email-label">Mail<input placeholder="email" type="email" id="email" required /></label>
+          <label for="age" id="number-label">Age (optional)<input placeholder="number" type="number" id="number" min="13" max="120"></label>
+          <label for="role">What option describes you?
+            <select id="dropdown">
+              <option id="dropdown">Student</option>
+              <option id="dropdown">Graduated</option>
+              <option id="dropdown">Working</option>
+          </label>
+<legend>SECLECT AN OPTION</legend>
+<label for="personal-account"><input id="personal-account" value="personal" type="radio" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" value="personal" type="radio" name="account-type" class="inline" /> Business</label>
+            <label for="personal-account"><input id="personal-account" value="account" type="checkbox" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" value="account" type="checkbox" name="account-type" class="inline" /> Business</label>
+<label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+         <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+    </html>
+
+
+** end of undefined **
